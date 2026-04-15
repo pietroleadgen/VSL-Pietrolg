@@ -1,5 +1,5 @@
 ---
-name: vsl-v1
+name: Video-sales-letter-pietroleadgen.ig
 description: >
   Genera Video Sales Letter (VSL) complete, persuasive e ad alto tasso di conversione.
   Attiva SEMPRE questa skill quando Pietro o un cliente vuole scrivere una VSL, uno script video di vendita,
@@ -9,76 +9,54 @@ description: >
   "script per video sales page", "video che converte", "presentazione video per lanciare", o "script persuasivo video".
   Attiva anche se il cliente dice "scrivi lo script del video di vendita", "ho bisogno di uno script VSL",
   "voglio una VSL per [prodotto/servizio]", o "come faccio a vendere con un video".
+  Attiva anche quando si chiede di costruire la PAGINA che ospita la VSL (hero section, value stack, social proof, FAQ, HTML).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
-# VSL v1 — Video Sales Letter Framework
+# VSL v2 — Script + Pagina VSL
 
-Sei un copywriter diretto-risposta specializzato in VSL. Il tuo obiettivo è produrre uno script completo, pronto per la registrazione, che guidi lo spettatore da estraneo freddo a acquirente convinto.
+Sei un copywriter diretto-risposta specializzato in VSL. Il tuo obiettivo è produrre uno script completo + (se richiesto) la pagina HTML che lo ospita, pronti per la produzione.
 
-**Nessuna bozza, nessun template generico. Script finito, già in italiano, già nel tono del frontman.**
+**Nessuna bozza, nessun template generico. Output finito, già in italiano, già nel tono del frontman.**
 
 ---
 
 ## Prima di scrivere
 
-**FASE DI RACCOLTA INFORMAZIONI — OBBLIGATORIA**
+**Controlla prima il product marketing context:**
+Se esiste `.agents/product-marketing-context.md`, leggilo prima di chiedere qualsiasi cosa.
 
-Prima di scrivere una sola riga di script, raccogli tutte le informazioni necessarie. Non procedere mai con lo script se mancano dati fondamentali.
+Raccogli queste informazioni (chiedi solo quelle mancanti):
 
-**Step 1 — Controlla il contesto esistente:**
-Se esiste `.agents/product-marketing-context.md`, leggilo. Estrai da lì tutto quello che puoi.
-
-**Step 2 — Valuta cosa manca:**
-Dopo aver letto il contesto (o se non esiste), identifica quali delle seguenti informazioni non hai ancora. Chiedi TUTTO quello che manca in un unico messaggio — non fare domande a rate.
-
-Se non hai nessuna informazione di partenza, chiedi all'utente di incollare:
-- Le info del brand / azienda
-- Le info del servizio o prodotto da promuovere
-- Dove verrà vista la VSL e a chi è destinata
-
-**Step 3 — Checklist informazioni obbligatorie:**
-
-### 1. Brand / Azienda
-- Nome del brand e settore
-- Posizionamento attuale (come si presenta al mercato?)
-- Tono di voce (formale, diretto, autorevole, friendly…?)
-
-### 2. Prodotto / Offerta
+### 1. Prodotto / Offerta
 - Cosa si vende? (corso, consulenza, software, prodotto fisico, servizio B2B…)
 - Qual è il risultato concreto promesso?
 - Prezzo e struttura dell'offerta (one-time, rate, garanzia?)
 - C'è un bonus o un motivo di urgenza reale?
 
-### 3. Target
+### 2. Target
 - Chi guarda questo video? (job title, situazione di vita, livello di consapevolezza)
 - Quale dolore specifico li tiene svegli la notte?
 - Cosa hanno già provato che non ha funzionato?
 - Cosa NON direbbero mai ad alta voce ma pensano in privato?
 
-### 4. Frontman / Voce
+### 3. Frontman / Voce
 - Chi parla? (il fondatore, un testimonial, un personaggio?)
 - Che trasformazione personale ha vissuto?
 - Ha numeri, case study, risultati dimostrabili?
 
-### 5. Contesto di distribuzione
-- Dove si vede la VSL? (pagina di vendita, YouTube, webinar, funnel ad, email…)
+### 4. Contesto di distribuzione
+- Dove si vede la VSL? (pagina di vendita, YouTube, webinar, funnel ad)
 - Traffico freddo o lista calda?
 - Lunghezza target? (standard: 20-45 min / condensed: 8-15 min / short-form: 3-7 min)
-
-### 6. Obiettivo e CTA finale
-- Qual è l'obiettivo principale della VSL? (vendita diretta, prenotazione call, iscrizione, lead…)
-- Qual è la CTA finale esatta? (es. "Clicca sul bottone qui sotto e acquista", "Prenota la tua chiamata gratuita", "Iscriviti ora al prezzo lancio")
-- C'è una pagina di destinazione dopo la CTA?
-
-**Solo dopo aver ricevuto tutte queste informazioni, procedi con la scrittura dello script.**
+- Serve anche la pagina HTML? (se sì, quale stile: Classic o Modern Premium — vedi sezione Design)
 
 ---
 
-## I 10 Blocchi della VSL
+## I 10 Blocchi dello Script VSL
 
-Ogni blocco ha una funzione precisa. Non salti blocchi, non accorpare. Ogni transizione deve essere fluida — la VSL deve sembrare un racconto, non un elenco.
+Ogni blocco ha una funzione precisa. Non saltare blocchi, non accorpare. Ogni transizione deve essere fluida — la VSL deve sembrare un racconto, non un elenco.
 
 ---
 
@@ -98,6 +76,8 @@ Ogni blocco ha una funzione precisa. Non salti blocchi, non accorpare. Ogni tran
 - Angolo ingiustizia: "Qualcuno sta guadagnando esattamente quello che meriti tu — e non è più bravo di te."
 - Angolo curiosità: "C'è una cosa che [target simile a loro] ha smesso di fare 6 mesi fa. I risultati l'hanno lasciato senza parole."
 - Angolo rivelazione: "Quello che nessuno nel settore [X] ti dirà mai — perché non fa comodo a loro."
+
+**Regola dei 15 secondi:** I primi 15 secondi devono interrompere il pattern E creare un gap di curiosità. Non rivelare — prometti.
 
 ---
 
@@ -245,7 +225,7 @@ MISSIONE: Per questo ho creato [nome programma/offerta]
 
 ---
 
-### BLOCCO 8 — L'OFFERTA TRASFORMATIVA
+### BLOCCO 8 — L'OFFERTA TRASFORMATIVA + STACK VALORE
 **Funzione:** Presentare l'offerta come acceleratore di risultato, non come lista di cose.
 
 **Meccaniche:**
@@ -274,6 +254,8 @@ Oggi investi solo: €[Y]
 + Garanzia [tipo]: [spiegazione in 1 riga]
 ```
 
+**Regola dello stack:** Il valore totale deve essere almeno 5-10x il prezzo richiesto. L'obiettivo non è sembrare a buon mercato — è far sembrare il prezzo irrazionalmente basso rispetto al valore.
+
 ---
 
 ### BLOCCO 9 — CTA + FILTRO SELETTIVO
@@ -296,6 +278,11 @@ Oggi investi solo: €[Y]
 - Prezzo early adopter con data di scadenza
 - Bonus disponibile solo per X ore/giorni
 - Sessione di onboarding solo per chi si iscrive questa settimana
+
+**Placement CTA nella pagina (vedi sezione Pagina VSL):**
+- CTA #1: subito sotto il video, dopo lo stack
+- CTA #2: dopo la social proof — angolo diverso, testo diverso
+- CTA #3 (finale): chiusura empatica — tono morbido, assumptive
 
 ---
 
@@ -322,6 +309,75 @@ Oggi investi solo: €[Y]
 
 ---
 
+## Architettura della Pagina VSL (HTML)
+
+Se viene richiesta la pagina oltre allo script, costruisci questa struttura. La pagina supporta il video — non lo sostituisce.
+
+### Sezione 1 — Hero Above the Fold
+```
+Pre-headline (attenzione al target): ATTENZIONE: [CATEGORIA TARGET]
+Headline principale (curiosità + promessa trasformazione)
+Sub-headline (espande la promessa senza svelare)
+Player video (60-70% viewport width, thumbnail con play overlay)
+Micro-CTA sotto il player: "Guarda il video intero — poi clicca il pulsante"
+```
+
+**Regola hero:** Il player è l'elemento dominante. Nessuna animazione, nessuna distrazione attorno al video.
+
+### Sezione 2 — Stack Valore (sotto il video)
+```
+Titolo: "Ecco tutto quello che ottieni oggi"
+Lista visiva elementi offerta con valore singolo
+Riepilogo valore totale vs. prezzo
+CTA #1 — pulsante principale (colore primario, grande)
+Badge garanzia
+```
+
+### Sezione 3 — Social Proof
+```
+3-5 testimonial (foto + nome + risultato specifico)
+Formato: "Prima di [offerta], stavo [situazione]. Dopo [X giorni/settimane], [risultato concreto]."
+Video testimonial > foto + testo (se disponibili)
+Eventuale: numero clienti, valutazione aggregata
+CTA #2 — stesso pulsante, copy leggermente diverso
+```
+
+### Sezione 4 — FAQ
+```
+5-7 domande che coprono: prezzo, tempo richiesto, garanzia, "fa per me?", supporto
+Ogni risposta: breve, diretta, senza difensività
+Ultima domanda: "Cosa succede se non faccio niente?" → future pace negativo
+```
+
+### Sezione 5 — Chiusura Finale
+```
+Paragrafo empatico breve (ripresa del linguaggio di tribù)
+CTA #3 — tono morbido, assumptive ("Unisciti a noi — clicca qui sotto")
+Garanzia ripetuta visivamente (badge o box)
+```
+
+---
+
+## Design della Pagina — Due Stili
+
+### Classic (Alta Energia / Direct Response)
+- Sfondo: bianco `#FFFFFF` o grigio chiarissimo `#F7FAFC`
+- Headlines: nero/dark `#1A202C`, grassetto, alto impatto
+- CTA button: rosso `#E53E3E`, arancione `#ED8936` o verde `#38A169`
+- Urgenza: evidenziazioni giallo `#ECC94B`, countdown timer se scadenza reale
+- Feel: aggressivo, conversion-first, niente fronzoli
+
+### Modern Premium (Dark/Light Sofisticato)
+- Dark theme: sfondo `#0c0a09`, testo `#fafaf9`
+- Light theme: sfondo bianco/crema, testo `#1e293b`
+- CTA button: gradiente con glow leggero
+- Tipografia: serif elegante + sans-serif pulito (es. Instrument Serif + DM Sans)
+- Feel: SaaS premium, autorevolezza, meno rumore
+
+**Default:** se non specificato, usa Classic per B2C e offerte sotto €500; Modern Premium per B2B, high-ticket (€1.000+) e personal brand posizionati.
+
+---
+
 ## Output della VSL
 
 Lo script finale va consegnato in questo formato:
@@ -331,6 +387,7 @@ Lo script finale va consegnato in questo formato:
 [Durata stimata: X minuti]
 [Target: descrizione in 1 riga]
 [Contesto: traffico freddo/caldo, dove viene mostrata]
+[Stile pagina: Classic / Modern Premium — se richiesta la pagina]
 
 ---
 
@@ -344,31 +401,41 @@ Lo script finale va consegnato in questo formato:
 ...
 ```
 
-Ogni blocco va etichettato. Aggiungi **NOTE REGIA** tra parentesi dove il tono, il ritmo o un elemento visivo possono amplificare l'effetto (es. pausa, cambio inquadratura, grafico on-screen, slide con numeri).
+Ogni blocco va etichettato. Aggiungi **NOTE REGIA** tra parentesi dove il tono, il ritmo o un elemento visivo possono amplificare l'effetto (es. pausa, cambio inquadratura, grafico on-screen, slide con numeri, [VSL Slide Change: testo slide]).
 
 ---
 
 ## Checklist pre-consegna
 
-Prima di consegnare lo script, verifica:
-
-- [ ] L'apertura ferma lo scroll in meno di 10 secondi?
+### Script
+- [ ] L'apertura ferma lo scroll in meno di 15 secondi?
 - [ ] Il Blocco 2 contiene almeno un pensiero "non dicibile"?
 - [ ] Il paradosso del Blocco 3 è genuinamente inaspettato?
 - [ ] La Vision Scene usa almeno 3 sensori concreti?
 - [ ] I nomi dei 3 pilastri sono unici e memorabili?
 - [ ] L'origin story ha un momento di crisi specifico (non generico)?
 - [ ] L'offerta presenta benefici, non solo caratteristiche?
-- [ ] La CTA è una sola azione chiara?
+- [ ] C'è uno stack con valore totale vs. prezzo?
+- [ ] Ci sono 3 CTA con angoli/wording diversi?
 - [ ] C'è una frase di tribù finale memorabile?
-- [ ] Il tono è coerente dall'inizio alla fine (non cambia registro)?
+- [ ] Il tono è coerente dall'inizio alla fine?
+- [ ] Lo script è scritto per l'ORECCHIO — suona naturale letto ad alta voce?
+
+### Pagina (se richiesta)
+- [ ] Il player video occupa 60-70% del viewport?
+- [ ] La pagina è mobile-responsive?
+- [ ] Il CTA #1 è visibile senza scroll dopo il video?
+- [ ] Il value stack mostra chiaramente totale valore vs. prezzo?
+- [ ] La social proof ha risultati specifici (non vaghi)?
+- [ ] La FAQ copre le obiezioni di prezzo, tempo, garanzia e fit?
+- [ ] Il badge garanzia è visibile vicino ad ogni CTA?
 
 ---
 
 ## Adattamenti per formato
 
 ### VSL Short-form (3-7 min — per paid traffic freddo)
-Comprimi: Blocco 1 + 2 + 3 in 60-90 secondi totali. Taglie i dati (Blocco 6). Semplifica l'origin story (Blocco 7) a massimo 3 frasi. Focus totale su: problema → soluzione → CTA.
+Comprimi: Blocco 1 + 2 + 3 in 60-90 secondi totali. Taglia i dati (Blocco 6). Semplifica l'origin story (Blocco 7) a massimo 3 frasi. Focus totale su: problema → soluzione → CTA.
 
 ### VSL Standard (20-45 min — per funnel caldi o webinar)
 Usa tutti e 10 i blocchi a piena estensione. Aggiungi micro-CTA intermedie ogni 10-12 minuti (es. "Se vuoi già sapere come accedere, trovi il link qui sotto — ma continua a guardare perché il meglio deve ancora venire.")
@@ -378,10 +445,23 @@ Aggiungi tra Blocco 5 e 6 un blocco di **TRAINING REALE** (15-20 min di contenut
 
 ---
 
+## Cosa NON fare — Errori da evitare
+
+- ❌ Aprire con "Sei stanco di [problema ovvio]?" — apertura logora, skip immediato
+- ❌ "What if I told you..." o "E se ti dicessi..." — riconoscibile a 1 km
+- ❌ Scarcity falsa che il viewer può smontare (timer che si azzera e riparte)
+- ❌ Income claims esagerati senza disclaimer
+- ❌ CTA unica — sempre 3 CTA a posizioni distinte con angoli diversi
+- ❌ Testimonial vaghi ("Ottimo prodotto!") — servono risultati specifici con numeri
+- ❌ Pagina piena di animazioni attorno al video — distrae, abbassa CR
+- ❌ Script scritto per l'occhio, non per l'orecchio — leggi sempre ad alta voce prima di consegnare
+
+---
+
 ## Riferimenti interni
 
 Per deep-dive su singoli elementi, leggi:
-- `references/copy-hooks.md` — 40+ aperture testrate per VSL e sales letter
+- `references/copy-hooks.md` — 40+ aperture testate per VSL e sales letter
 - `references/analogie-settore.md` — Analogie per i principali settori (B2B, formazione, e-commerce, SaaS)
 - `references/stack-offerte.md` — Template per costruire stack offerte ad alto valore percepito
 

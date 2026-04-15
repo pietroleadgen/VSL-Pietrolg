@@ -1,0 +1,21 @@
+{
+  "name": "vsl-pietrolg",
+  "version": "2.0.0",
+  "description": "VSL v2 — Video Sales Letter skill per Pietro LeadGen. Script completo + pagina HTML ad alto tasso di conversione.",
+  "skills": [
+    "Skill-VSL-Pietrolg.md"
+  ],
+  "keywords": [
+    "claude-skill",
+    "vsl",
+    "video-sales-letter",
+    "copywriting",
+    "direct-response"
+  ],
+  "author": "Pietro LeadGen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietroleadgen/VSL-Pietrolg.git"
+  }
+}
